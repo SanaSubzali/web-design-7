@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <title>Communicate with us</title>
+      <meta name="description" content="Give us a call">
+      <meta name=" author" content="Sana Sultan">
+
+    <!--Optional Local Stylesheets -->
+
+    </head>
+
+    <body style=" background-color: rgb(184, 119, 35);">
+        <header>
+            <h1> Exploration of Ben Harper's Life </h1>
+        </header>
+
+        <main>
+            <h2>Ben Harper's life Series </h2>
+            <nav>
+                <a href="index.html">Home</a>
+                |
+                <a href="faq.html">FAQs</a>
+                |
+                <a href="gallery.html">Gallery</a>
+                |
+                <a href="contact-us.html">contact-us</a>
+            </nav>
+            <section>
+                <h2>Fill this form to reach us</h2> 
+                <fieldset>
+                  <legend>Form created to make it easier to communicate with us</legend>
+                <h3>Personal data</h3>
+                <form id="myMailerForm" method="post" action="mailto:e3577396@student.dcccd.edu">
+                    <p>
+                        <label title="Enter Your Last Name."> Last Name <input type="text" name="name" placeholder="Last Name"></label>
+                        <br>
+                        <Label> First Name <input type="text" name="lastName" placeholder="Last Name"></Label>
+                    </p>
+                    <p>
+                     <Label title="Enter your email address.">Email <input type="text" name="Email" placeholder="Email"></Label>
+                    </p>
+                    <p>
+                        <label title="Select Your Instrument">Instrument</label>
+                        <select name="InstrumentID">
+                            <option value="">&larr;&nbsp;Select Instrument&nbsp;&rarr;</option>
+                            <option value="1">Electric Guitar</option>
+                            <option value="2">Drums</option>
+                            <option value="3">Slide Guitar</option>
+                        </select>
+                        </p>
+                        <p>
+                          <label title="Select to be contacted"><input type="checkbox" Name= "contact-me"> Enter your Email address for us to assit. </label>
+                          <br>
+                          <label title="Select a Instrument."><input type="checkbox" name="Select Instrument"> Would you like to receive an autographed by Harper Instrument? </label>
+                          <h3>Any questions, Any changes from our side, Or a Feedback for us? </h3>
+                          <p>
+                            <label title="Select if you have a question about Harper."> Question<input type="radio" name="request"></label>
+                            <label title="Select If you would like us to amke any changes."> Changes<input type="radio" name="request"></label>
+                            <label title="Select if you have any type of feedback for us?">Feedback<input type="radio" name= "request"></label>
+                        </p>
+                        <p>
+                            <label for="message">Message</label><br>
+                            <textarea id="message" name="message"></textarea>
+                        </p>
+                        <input type="submit" name="submit" value="Send mail">
+                        <input type="reset" value="Remove">
+                    </form>
+                    </fieldset>
+            </section>
+        
+        </main>
+    </body>
+      
+
